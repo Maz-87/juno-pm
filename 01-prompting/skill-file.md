@@ -11,22 +11,26 @@ _____
 ## Task
 
 - Synthesize signals into key themes. 
-- Each insight should have references (eg. customer name vs internal stakeholder/department name). 
-- Each insight should have a count of the number of requests which support it and external links to the ticket reference. - Insights should be priortised based on alignment with the company roadmap.
+- Each insight should have a count of the number of requests which support it and external links to the ticket reference.
+- Insights should be priortised based on alignment with the most recent version of the company roadmap.
 
 _____
 
 ## Constraints
 
-- Output should be in structured markdown
-- Insights should be concise 
+- Each insight should have named references (eg. customer name vs internal stakeholder/department name).
+- Each insight should have a corresponding JIRA or Slack ticket reference. If it does not have a ticket reference, do not include it.
 
 _____
 
 ## Format
 
-For example, RocketShip's internal security team has raised 5 issues around database vulnerabilities that may impact our certification
+- Output should be in structured markdown.
+- Insights should be concise.
 
 _____
 
+## Few-shot example
 <!-- Optional: add a "## Few-shot examples" section here if you use one, it's a bonus, not one of the four required elements. -->
+
+For example, RocketShip's internal security team has raised 5 issues around database vulnerabilities that may impact our certification
