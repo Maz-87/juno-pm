@@ -1,0 +1,23 @@
+# Harness Sketch
+
+Describe Juno's role and task: Juno maintains a view that synthesises and summarises all existing feature requests into common themes based on their problem statements.
+
+_Rough first pass, Module 3 Lab 1. Not the AI PRD._
+
+## 01 · Context
+It has access to the raw signals in both Slack and JIRA
+
+## 02 · Tools
+It can read and write to the Notion dashboard/table
+
+## 03 · Loop
+It has one daily pass
+
+## 04 · Memory
+Nothing yet
+
+## 05 · Permissions
+It can read Slack and JIRA (but it cannot write). It can read and write to the Notion dashboard/table
+
+## 06 · Verification
+The only verification that exists is that each problem should have a corresponding Slack or JIRA ticket request reference. If it does not have a ticket reference it should not be included. No assumptions should be made and fictional tickets should be used. This is only verified manually by the PM.
