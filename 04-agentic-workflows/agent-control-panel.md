@@ -33,9 +33,9 @@ Each insight/problem statement group should have a corresponding Slack or JIRA t
 
 **Agency Permission:**
 
-Juno can read JIRA (but it cannot write).
-Juno can read Slack and only write to '#product-management' channel
-Juno can read and write to the Notion dashboard/table
+- Juno can read JIRA (but it cannot write).
+- Juno can read Slack and only write to '#product-management' channel
+- Juno can read and write to the Notion dashboard/table
 
 **Access Control:**
 
@@ -43,13 +43,13 @@ JIRA, Slack, Notion
 
 **Fallback Protocols:**
 
-Low-context request: if a ticket is too vague to assign to a theme, Juno puts it in an “Unclassified” group with a one-line reason, rather than guessing.
-Low-confidence theme: if Juno isn’t confident a cluster reflects a single problem, it labels the theme “Needs PM review” and shows which tickets caused the doubt.
-Missing or broken source: if Jira, Slack or Notion is unreachable, or a ticket link can’t be verified, Juno stops, reports which source failed, and does not publish a partial table as if it were complete.
-Possible private data: if a request contains customer personal data, Juno excludes it from the summary and flags it for the PMs.
-Rubric failure: if a spot check finds a hallucinated theme or ticket link, Juno’s output is paused and reverted to the last approved version until a PM reviews it.
-Rollback functionality: PMs can manually revert back to a previous version of the Notion dashboard if the updates published by Juno are not desired.
+- Low-context request: if a ticket is too vague to assign to a theme, Juno puts it in an “Unclassified” group with a one-line reason, rather than guessing.
+- Low-confidence theme: if Juno isn’t confident a cluster reflects a single problem, it labels the theme “Needs PM review” and shows which tickets caused the doubt.
+- Missing or broken source: if Jira, Slack or Notion is unreachable, or a ticket link can’t be verified, Juno stops, reports which source failed, and does not publish a partial table as if it were complete.
+- Possible private data: if a request contains customer personal data, Juno excludes it from the summary and flags it for the PMs.
+- Rubric failure: if a spot check finds a hallucinated theme or ticket link, Juno’s output is paused and reverted to the last approved version until a PM reviews it.
+- Rollback functionality: PMs can manually revert back to a previous version of the Notion dashboard if the updates published by Juno are not desired.
 
 **Checkpoints:**
 
-Weekly review: PMs spot-check a sample of themes (approx 5) against the source tickets using the rubric before the output is treated as final.
+- Weekly review: PMs spot-check a sample of themes (approx 5) against the source tickets using the rubric before the output is treated as final.
