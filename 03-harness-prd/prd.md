@@ -14,7 +14,7 @@ RocketShip PMs need this handled: Juno maintains a view that synthesises and sum
 | 02 Tools | It can read and write to the Notion dashboard/table |
 | 03 Loop | It has one daily pass |
 | 04 Memory | Nothing yet |
-| 05 Permissions | read auto · draft allowed · write confirm · send blocked |
+| 05 Permissions | read auto · draft allowed · write allowed · send (blocked for JIRA, allowed for Slack)  |
 | 06 Verification | The only verification that exists is that each problem should have a corresponding Slack or JIRA ticket request reference. |
 
 ## 01 Context · Data Requirements
