@@ -14,7 +14,7 @@ RocketShip PMs need this handled: Juno maintains a view that synthesises and sum
 | 02 Tools | It can read and write to the Notion dashboard/table |
 | 03 Loop | It has one daily pass |
 | 04 Memory | Nothing yet |
-| 05 Permissions | read auto · draft blocked · write confirm · send blocked |
+| 05 Permissions | read auto · draft allowed · write confirm · send blocked |
 | 06 Verification | The only verification that exists is that each problem should have a corresponding Slack or JIRA ticket request reference. |
 
 ## 01 Context · Data Requirements
@@ -66,13 +66,15 @@ Remove any closed/deleted JIRA tickets (and their corressponding problem stateme
 | Side-effect class | Tier |
 |---|---|
 | read | auto |
-| draft | blocked |
+| draft | allowed |
 | write | confirm |
 | send | blocked |
 
 **Justification**
 
-It can read Slack and JIRA (but it cannot write). 
+It can read to JIRA (but it cannot write). 
+
+It can read and write to Slack (write access is limited to sending notifications via #product-management channel)
 
 It can read and write to the Notion dashboard/table
 
