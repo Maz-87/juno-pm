@@ -1,8 +1,8 @@
 # Juno PM
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+Juno PM is a AI tool for Senior PMs to use to help identify what problems to solve next for RocketShip
 
-_Your name · cohort · date_
+Adam Maslac · Class 6 · Oct 29, 2026
 
 This repo is my final project for the **AI Product Management Certification**. Each module's artifact lives in its own folder.
 
